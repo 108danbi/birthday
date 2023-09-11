@@ -5,7 +5,6 @@ import webbrowser
 import os
 import sys
 
-os.system("start /max cmd.exe")
 
 # Maximize the terminal window on macOS
 os.system("osascript -e 'tell application \"Terminal\" to set zoomed of front window to true'")
